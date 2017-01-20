@@ -5,6 +5,11 @@
     <title>Serving different content</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+
+<?php
+    $isMember = 1;
+?>
+
 <body>
 <div id="wrapper">
     <header class="both">
@@ -12,12 +17,15 @@
         <p>Welcome one and all to a really exclusive club for PHP developers. So exclusive, it doesn't exist!</p>
     </header>
 
+    <?php if (!$isMember): ?>
     <section class="non-members">
         <h2>Become a Member</h2>
         <p>Useful information for non-members. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae doloribus esse itaque necessitatibus nobis placeat repellat temporibus voluptas. Architecto maxime quisquam soluta veniam? Aliquid consequuntur cum eligendi enim, natus non!</p>
         <p>Accusamus animi architecto asperiores aspernatur at dolor eaque error est illum ipsam libero nam nemo nisi, officiis pariatur quae quidem quod sed sunt totam velit veniam vero voluptas voluptatem voluptatibus?</p>
     </section>
+    <?php endif; ?>
 
+    <?php if ($isMember): ?>
     <section class="members">
         <h2>Members' News</h2>
         <p>For members's eyes only. Amet at, cum delectus deserunt dolorem doloribus ea esse eum eveniet facilis fuga illo in itaque iusto laudantium minus molestiae necessitatibus nobis, non obcaecati odit ratione repellendus rerum. Odit, placeat.</p>
@@ -29,6 +37,7 @@
         </ul>
         <p>Aliquid cum ex expedita illum ipsa maxime, minus, natus nihil officia praesentium quas, quisquam ratione sapiente. Aliquid animi beatae fugit in magnam necessitatibus, nihil nobis quod repudiandae saepe. Similique, ullam?</p>
     </section>
+    <?php endif; ?>
 
     <section>
         <div class="both">
@@ -37,11 +46,13 @@
             <p>Accusamus architecto, aspernatur commodi consectetur doloremque esse est illum impedit inventore itaque iusto laboriosam nesciunt nostrum nulla optio provident quae quidem sapiente sequi tempore vel veritatis voluptatem. Magni, quos rerum?</p>
         </div>
 
+        <?php if ($isMember): ?>
         <div class="members">
             <h3>Information for Members Only</h3>
             <p>Don't let non-members into the secret! Dolor dolores dolorum harum, illum molestias quia quidem ullam. A accusamus alias assumenda iure provident quae quos! A, alias cumque distinctio excepturi, incidunt mollitia nemo neque quam suscipit ut voluptate.</p>
         </div>
     </section>
+    <?php endif; ?>
 
     <footer class="both">
         <p>&copy; 2015 Nonesuch Club</p>
