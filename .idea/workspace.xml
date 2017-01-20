@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e096ab2-f43f-47d8-822a-0ae5efc594dc" name="Default" comment="" />
+    <list default="true" id="9e096ab2-f43f-47d8-822a-0ae5efc594dc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch05/05_06/multiplication.php" afterPath="$PROJECT_DIR$/ch05/05_06/multiplication.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="integer_division.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch04/04_04/integer_division.php">
+      <file leaf-file-name="multiplication.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch05/05_06/multiplication.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="312">
+              <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <marker date="1484951311372" expanded="true" signature="277:283" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,6 +56,8 @@
         <option value="$PROJECT_DIR$/ch02/02_10/embed.php" />
         <option value="$PROJECT_DIR$/ch03/03_07/different.php" />
         <option value="$PROJECT_DIR$/ch04/04_04/integer_division.php" />
+        <option value="$PROJECT_DIR$/ch05/05_05/multiplication.html" />
+        <option value="$PROJECT_DIR$/ch05/05_06/multiplication.php" />
       </list>
     </option>
   </component>
@@ -107,7 +114,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch04" />
+              <option name="myItemId" value="ch05" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="05_06" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -121,11 +132,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch04" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04_04" />
+              <option name="myItemId" value="ch05" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,12 +217,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484780921470</updated>
       <workItem from="1484780924837" duration="482000" />
-      <workItem from="1484781464574" duration="15559000" />
+      <workItem from="1484781464574" duration="17682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16041000" />
+    <option name="totallyTimeSpent" value="18164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,6 +362,26 @@
         <state relative-caret-position="110">
           <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/05_05/multiplication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="e#245#251#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch05/05_06/multiplication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <marker date="1484951311372" expanded="true" signature="277:283" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
